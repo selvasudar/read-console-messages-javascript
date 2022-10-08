@@ -1,0 +1,38 @@
+.form-holder{
+    width: 400px;
+    border:2px solid #000;
+    text-align: center;
+    margin:auto;
+}
+.element-group{
+    margin-bottom: 8px;
+}
+label{
+    display: block;
+    /* text-align: left; */
+}
+.submit-btn{
+    padding: 12px;
+    background: green;
+    box-shadow: none;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.5s;
+    position: relative;
+    transform: translateX(0px);}
+.btn-group{
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+.btn-group.wrong button{
+    background: red;
+}
+.btn-group.wrong:hover button{
+    transform: translateX(150px);
+    transition: all 0.5s;
+}
+.btn-group.wrong button.swiper-left:hover{
+    transform: translateX(-150px);
+    transition: all 0.5s;
+}
