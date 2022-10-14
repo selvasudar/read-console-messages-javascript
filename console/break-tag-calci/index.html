@@ -1,0 +1,57 @@
+<html>
+
+<head>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="custom.js"></script>
+    <style type="text/css">
+        div>label:first-child {
+            font-weight: bold;
+        }
+
+        .result span {
+            background-color: yellow;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Break Tag Calci</h1>
+    <div>
+        <label for="html">Mobile</label>
+        <br>
+        <input type="radio" name="mobile" checked value="d-none"><label for="mobile">Hide</label>
+        <input type="radio" name="mobile" value="d-block"><label for="mobile">Show</label>
+        <br>
+        <br>
+    </div>
+    <div>
+        <label for="html">Ipad Portrait</label><br>
+        <input type="radio" name="ipad_p" checked value="d-md-none"><label for="ipad_p">Hide</label>
+        <input type="radio" name="ipad_p" value="d-md-block"><label for="ipad_p">Show</label>
+        <br>
+        <br>
+    </div>
+    <div>
+        <label for="html">Ipad Landscape</label><br>
+        <input type="radio" name="ipad_l" checked value="d-lg-none"><label for="ipad_l">Hide</label>
+        <input type="radio" name="ipad_l" value="d-lg-block"><label for="ipad_l">Show</label>
+        <br>
+        <br>
+    </div>
+    <div>
+        <label for="html">Desktop</label><br>
+        <input type="radio" name="desktop" checked value="d-xl-none"><label for="desktop">Hide</label>
+        <input type="radio" name="desktop" value="d-xl-block"><label for="desktop">Show</label>
+        <br>
+        <br>
+    </div>
+    <br>
+    <button id="calculate_value">Submit</button>
+
+    <br> <br><br>
+    <div class="result">Your break tag is ---> <span></span></div>
+</body>
+
+</html>
