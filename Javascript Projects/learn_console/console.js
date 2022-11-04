@@ -34,7 +34,7 @@
 
 // console.time('time1') //timer switched on
 
-// for (let i = 0; i < 1000000000; i++) {
+// for (let i = 0; i < 10000; i++) {
 //     count++
 // }
 
@@ -44,27 +44,27 @@
 
 
 //console.table//////////////////////////
-const foods = [
-    {
-        name: '🍔',
-        price: 30.89,
-        group: 1,
-    },
-    {
-        name: '🍨',
-        price: 20.71,
-        group: 1,
-    },
-    {
-        name: '🍿',
-        price: 10.31,
-        group: 2,
-    },
-    {
-        name: '🍵',
-        price: 5.98,
-        group: 2,
-    },
-]
+// const foods = [
+//     {
+//         name: '🍔',
+//         price: 30.89,
+//         group: 1,
+//     },
+//     {
+//         name: '🍨',
+//         price: 20.71,
+//         group: 1,
+//     },
+//     {
+//         name: '🍿',
+//         price: 10.31,
+//         group: 2,
+//     },
+//     {
+//         name: '🍵',
+//         price: 5.98,
+//         group: 2,
+//     },
+// ]
 
-console.table(foods)
+// console.table(foods)
